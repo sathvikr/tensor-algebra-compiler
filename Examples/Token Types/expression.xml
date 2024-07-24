@@ -1,0 +1,92 @@
+<compilation_unit>
+	<statements>
+		<var_dec>
+			<keyword> let </keyword>
+			<keyword> float </keyword>
+			<local_identifier0> a </local_identifier0>
+			<symbol> = </symbol>
+			<expression>
+				<term>
+					<factor>
+						<primary>
+							<int_const> 3 </int_const>
+						</primary>
+					</factor>
+				</term>
+			</expression>
+			<symbol> ; </symbol>
+		</var_dec>
+		<var_dec>
+			<keyword> let </keyword>
+			<keyword> float </keyword>
+			<local_identifier1> b </local_identifier1>
+			<symbol> = </symbol>
+			<expression>
+				<term>
+					<factor>
+						<primary>
+							<local_identifier2> a </local_identifier2>
+						</primary>
+					</factor>
+				</term>
+				<symbol> + </symbol>
+				<term>
+					<factor>
+						<primary>
+							<int_const> 1 </int_const>
+						</primary>
+					</factor>
+				</term>
+			</expression>
+			<symbol> ; </symbol>
+		</var_dec>
+		<var_dec>
+			<keyword> let </keyword>
+			<keyword> float </keyword>
+			<local_identifier2> c </local_identifier2>
+			<symbol> = </symbol>
+			<expression>
+				<term>
+					<factor>
+						<primary>
+							<local_identifier3> a </local_identifier3>
+						</primary>
+					</factor>
+				</term>
+				<symbol> + </symbol>
+				<term>
+					<factor>
+						<symbol> ( </symbol>
+						<expression>
+							<term>
+								<factor>
+									<primary>
+										<int_const> 2 </int_const>
+									</primary>
+								</factor>
+							</term>
+							<symbol> + </symbol>
+							<term>
+								<factor>
+									<primary>
+										<local_identifier3> b </local_identifier3>
+									</primary>
+								</factor>
+							</term>
+						</expression>
+						<symbol> ) </symbol>
+					</factor>
+					<symbol> / </symbol>
+					<term>
+						<factor>
+							<primary>
+								<local_identifier3> a </local_identifier3>
+							</primary>
+						</factor>
+					</term>
+				</term>
+			</expression>
+			<symbol> ; </symbol>
+		</var_dec>
+	</statements>
+</compilation_unit>

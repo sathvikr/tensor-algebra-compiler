@@ -1,0 +1,14 @@
+push constant 3
+pop local 0
+push local 0
+push constant 1
+fadd
+pop local 1
+push local 0
+push constant 2
+push local 1
+fadd
+push local 0
+fdiv
+fadd
+pop local 2

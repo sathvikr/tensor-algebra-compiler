@@ -1,0 +1,191 @@
+<statements>
+	<let_statement>
+		<keyword> let </keyword>
+		<keyword> tensor </keyword>
+		<symbol> [ </symbol>
+		<expression>
+			<term>
+				<int_const> 3 </int_const>
+			</term>
+		</expression>
+		<symbol> ] </symbol>
+		<symbol> [ </symbol>
+		<expression>
+			<term>
+				<int_const> 2 </int_const>
+			</term>
+		</expression>
+		<symbol> ] </symbol>
+		<symbol> [ </symbol>
+		<expression>
+			<term>
+				<int_const> 2 </int_const>
+			</term>
+		</expression>
+		<symbol> ] </symbol>
+		<local_identifier0> A </local_identifier0>
+		<symbol> = </symbol>
+		<expression>
+			<term>
+				<symbol> { </symbol>
+				<tensor>
+					<symbol> { </symbol>
+					<tensor>
+						<symbol> { </symbol>
+						<tensor>
+							<int_const> 1 </int_const>
+							<symbol> , </symbol>
+							<float_const> .2 </float_const>
+						</tensor>
+						<symbol> } </symbol>
+						<symbol> , </symbol>
+						<symbol> { </symbol>
+						<tensor>
+							<int_const> 3 </int_const>
+							<symbol> , </symbol>
+							<float_const> 5.0 </float_const>
+						</tensor>
+						<symbol> } </symbol>
+					</tensor>
+					<symbol> } </symbol>
+					<symbol> , </symbol>
+					<symbol> { </symbol>
+					<tensor>
+						<symbol> { </symbol>
+						<tensor>
+							<float_const> 5.5 </float_const>
+							<symbol> , </symbol>
+							<float_const> 6.35 </float_const>
+						</tensor>
+						<symbol> } </symbol>
+						<symbol> , </symbol>
+						<symbol> { </symbol>
+						<tensor>
+							<float_const> 7.535 </float_const>
+							<symbol> , </symbol>
+							<float_const> 8.0 </float_const>
+						</tensor>
+						<symbol> } </symbol>
+					</tensor>
+					<symbol> } </symbol>
+					<symbol> , </symbol>
+					<symbol> { </symbol>
+					<tensor>
+						<symbol> { </symbol>
+						<tensor>
+							<int_const> 9 </int_const>
+							<symbol> , </symbol>
+							<float_const> 10.5 </float_const>
+						</tensor>
+						<symbol> } </symbol>
+						<symbol> , </symbol>
+						<symbol> { </symbol>
+						<tensor>
+							<int_const> 11 </int_const>
+							<symbol> , </symbol>
+							<int_const> 12 </int_const>
+						</tensor>
+						<symbol> } </symbol>
+					</tensor>
+					<symbol> } </symbol>
+				</tensor>
+				<symbol> } </symbol>
+			</term>
+		</expression>
+		<symbol> ; </symbol>
+	</let_statement>
+	<let_statement>
+		<keyword> let </keyword>
+		<keyword> tensor </keyword>
+		<symbol> [ </symbol>
+		<expression>
+			<term>
+				<int_const> 2 </int_const>
+			</term>
+		</expression>
+		<symbol> ] </symbol>
+		<symbol> [ </symbol>
+		<expression>
+			<term>
+				<int_const> 2 </int_const>
+			</term>
+		</expression>
+		<symbol> ] </symbol>
+		<local_identifier1> B </local_identifier1>
+		<symbol> = </symbol>
+		<expression>
+			<term>
+				<symbol> { </symbol>
+				<tensor>
+					<symbol> { </symbol>
+					<tensor>
+						<int_const> 2 </int_const>
+						<symbol> , </symbol>
+						<int_const> 4 </int_const>
+					</tensor>
+					<symbol> } </symbol>
+					<symbol> , </symbol>
+					<symbol> { </symbol>
+					<tensor>
+						<float_const> 3.3 </float_const>
+						<symbol> , </symbol>
+						<float_const> 4.412 </float_const>
+					</tensor>
+					<symbol> } </symbol>
+				</tensor>
+				<symbol> } </symbol>
+			</term>
+		</expression>
+		<symbol> ; </symbol>
+	</let_statement>
+	<let_statement>
+		<keyword> let </keyword>
+		<keyword> tensor </keyword>
+		<symbol> [ </symbol>
+		<expression>
+			<term>
+				<int_const> 2 </int_const>
+			</term>
+		</expression>
+		<symbol> ] </symbol>
+		<local_identifier2> C </local_identifier2>
+		<symbol> = </symbol>
+		<expression>
+			<term>
+				<symbol> { </symbol>
+				<tensor>
+					<float_const> .2 </float_const>
+					<symbol> , </symbol>
+					<float_const> 0.4 </float_const>
+				</tensor>
+				<symbol> } </symbol>
+			</term>
+		</expression>
+		<symbol> ; </symbol>
+	</let_statement>
+	<let_statement>
+		<keyword> let </keyword>
+		<keyword> tensor </keyword>
+		<symbol> [ </symbol>
+		<expression>
+			<term>
+				<int_const> 2 </int_const>
+			</term>
+		</expression>
+		<symbol> ] </symbol>
+		<local_identifier3> D </local_identifier3>
+		<symbol> = </symbol>
+		<expression>
+			<term>
+				<symbol> { </symbol>
+				<tensor>
+					<int_const> 4 </int_const>
+					<symbol> , </symbol>
+					<int_const> 2 </int_const>
+				</tensor>
+				<symbol> } </symbol>
+			</term>
+		</expression>
+		<symbol> ; </symbol>
+	</let_statement>
+</statements>

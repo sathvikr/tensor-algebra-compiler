@@ -1,0 +1,113 @@
+<statements>
+	<let_statement>
+		<keyword> let </keyword>
+		<keyword> float </keyword>
+		<local_identifier0> a </local_identifier0>
+		<symbol> = </symbol>
+		<expression>
+			<term>
+				<float_const> .3 </float_const>
+			</term>
+		</expression>
+		<symbol> ; </symbol>
+	</let_statement>
+	<let_statement>
+		<keyword> let </keyword>
+		<keyword> float </keyword>
+		<local_identifier1> b </local_identifier1>
+		<symbol> = </symbol>
+		<expression>
+			<term>
+				<float_const> 4.4 </float_const>
+			</term>
+		</expression>
+		<symbol> ; </symbol>
+	</let_statement>
+	<let_statement>
+		<keyword> let </keyword>
+		<keyword> tensor </keyword>
+		<symbol> [ </symbol>
+		<expression>
+			<term>
+				<int_const> 2 </int_const>
+			</term>
+		</expression>
+		<symbol> ] </symbol>
+		<local_identifier2> T1 </local_identifier2>
+		<symbol> = </symbol>
+		<expression>
+			<term>
+				<symbol> { </symbol>
+				<tensor>
+					<int_const> 3 </int_const>
+					<symbol> , </symbol>
+					<float_const> 1.1 </float_const>
+				</tensor>
+				<symbol> } </symbol>
+			</term>
+		</expression>
+		<symbol> ; </symbol>
+	</let_statement>
+	<let_statement>
+		<keyword> let </keyword>
+		<keyword> int </keyword>
+		<local_identifier3> c </local_identifier3>
+		<symbol> = </symbol>
+		<expression>
+			<term>
+				<local_identifier4> a </local_identifier4>
+			</term>
+			<symbol> * </symbol>
+			<term>
+				<local_identifier4> b </local_identifier4>
+			</term>
+		</expression>
+		<symbol> ; </symbol>
+	</let_statement>
+	<let_statement>
+		<keyword> let </keyword>
+		<keyword> tensor </keyword>
+		<symbol> [ </symbol>
+		<expression>
+			<term>
+				<int_const> 2 </int_const>
+			</term>
+		</expression>
+		<symbol> ] </symbol>
+		<local_identifier4> T2 </local_identifier4>
+		<symbol> = </symbol>
+		<expression>
+			<term>
+				<local_identifier5> a </local_identifier5>
+			</term>
+			<symbol> * </symbol>
+			<term>
+				<none_identifier5> A </none_identifier5>
+			</term>
+		</expression>
+		<symbol> ; </symbol>
+	</let_statement>
+	<let_statement>
+		<keyword> let </keyword>
+		<keyword> tensor </keyword>
+		<symbol> [ </symbol>
+		<expression>
+			<term>
+				<int_const> 2 </int_const>
+			</term>
+		</expression>
+		<symbol> ] </symbol>
+		<local_identifier5> T3 </local_identifier5>
+		<symbol> = </symbol>
+		<expression>
+			<term>
+				<none_identifier6> A </none_identifier6>
+			</term>
+			<symbol> * </symbol>
+			<term>
+				<local_identifier6> b </local_identifier6>
+			</term>
+		</expression>
+		<symbol> ; </symbol>
+	</let_statement>
+</statements>

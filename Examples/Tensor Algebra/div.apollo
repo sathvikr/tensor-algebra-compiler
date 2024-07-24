@@ -1,0 +1,7 @@
+let float a = .3;
+let float b = 4.4;
+let tensor[2] T1 = {3, 1.1};
+
+let int c = a / b;
+let tensor[2] T2 = A / b;
+

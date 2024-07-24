@@ -1,0 +1,29 @@
+<compilation_unit>
+	<statements>
+		<var_dec>
+			<keyword> let </keyword>
+			<keyword> tensor </keyword>
+			<local_identifier0> A </local_identifier0>
+			<symbol> = </symbol>
+			<expression>
+				<term>
+					<factor>
+						<primary>
+							<symbol> { </symbol>
+							<symbol> { </symbol>
+							<symbol> { </symbol>
+							<float_const> 0.1 </float_const>
+							<symbol> , </symbol>
+							<int_const> 0 </int_const>
+							<symbol> , </symbol>
+							<int_const> 0 </int_const>
+							<symbol> , </symbol>
+							<int_const> 0 </int_const>
+							<symbol> , </symbol>
+							<int_const> 0 </int_const>
+							<symbol> } </symbol>
+							<symbol> , </symbol>
+						</primary>
+					</factor>
+				</term>
+			</expression>

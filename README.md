@@ -1,2 +1,4 @@
 # tensor-algebra-compiler
-Toy version of the Apollo compiler (examples provided). Uploaded the handwritten parser and IR code generator.
+Toy version of the Apollo compiler (examples provided).
+
+I uploaded the handwritten parser and IR code generator.
